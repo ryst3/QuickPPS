@@ -17,7 +17,7 @@ QuickPPS is a Chrome extension designed to quickly find IGCSE and A-level past p
    - options.html
    - options.js
 
-2. Extract the downloaded folder to a new directory on your computer.
+2. Extract the downloaded folder to a new folder on your computer.
 
 3. Open Google Chrome and go to chrome://extensions/.
 
