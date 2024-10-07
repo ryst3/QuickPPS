@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "QuickPPS",
+  "version": "1.0",
+  "description": "A Chrome extension that searches for igcse and a level past papers at blazing fast speeds!",
+  // "icons": {
+  //   "16": "icon16.png",
+  //   "48": "icon48.png",
+  //   "128": "icon128.png"
+  // },
+  "action": {
+    //   "default_icon": "icon48.png",
+    "default_title": "Open Page in New Tab"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "./options/options.html",
+  "permissions": ["tabs", "storage", "commands"],
+  "commands": {
+    "run_extension": {
+      "suggested_key": {
+        "default": "Alt+Q"
+      },
+      "description": "Run Your Extension"
+    }
+  }
+}

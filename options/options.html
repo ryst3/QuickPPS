@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extention Options</title>
+  </head>
+  <body>
+    <h2>Open tab in...</h2>
+    <form id="form">
+      <div>
+        <label for="newTab">new tab</label>
+        <input
+          type="radio"
+          id="newTab"
+          value="newTab"
+          name="quick-search-location"
+        />
+      </div>
+      <div>
+        <label for="newWindow">new window</label>
+        <input
+          type="radio"
+          id="newWindow"
+          value="newWindow"
+          name="quick-search-location"
+        />
+      </div>
+      <div>
+        <label for="newWindowIncognito">new window incognito</label>
+        <input
+          type="radio"
+          id="newWindowIncognito"
+          value="newWindowIncognito"
+          name="quick-search-location"
+        />
+      </div>
+      <button id="button" type="submit">Apply</button>
+    </form>
+
+    <script src="options.js"></script>
+  </body>
+</html>
